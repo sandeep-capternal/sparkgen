@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SparkGen Enterprises</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/all.min.css " />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img src="/imags/img43 1.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="about-banner"
+      style="
+        background-image: url(/imags/9.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      "
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 banner-content">
+            <h1 class="about-banner-title">About Us</h1>
+            <h2 class="about-banner-heading">
+              Delivering Quality, Reliability and Innovation Since 2024.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 right">
+            <form onsubmit="return validateForm()">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Enter Full Name"
+                  required
+                  minlength="3"
+                />
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter Email Address"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Enter Phone Number"
+                    required
+                    pattern="[0-9]{10}"
+                    title="Enter 10 digit phone number"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="product">Product</label>
+                <input
+                  type="text"
+                  id="product"
+                  placeholder="Select Product"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  placeholder="Write your message here"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="submit-btn">SUBMIT NOW</button>
+            </form>
+          </div>
+          <div class="col-md-6 col-sm-12 left">
+            <h1 class="heading heading-3">Contact Us</h1>
+            <h3>Let’s Power Your Business Together</h3>
+            <p class="footer-text">
+              Have a project in mind or need help selecting the right panel for
+              your operations? We’re here to support you with expert advice,
+              reliable service, and fast response.
+            </p>
+            <div class="row p-0 pt-2">
+              <div class="col-md-12 col-lg-6 col-sm-12 adderess">
+                <h1 class="f-heading">Office Address</h1>
+                <p class="footer-text mb-0">
+                  SparkGen EnterprisesGandharv Excellance Phase II,Moshi, Pune –
+                  412105, India
+                </p>
+              </div>
+              <div class="col-md-12 col-lg-6 col-sm-12 c-info">
+                <h1 class="f-heading">Contact Information</h1>
+                <p class="footer-text mb-0">
+                  +91 7875508642 <br />
+                  +91 8600209732 <br />sparkgenele24@gmail.com
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="mb-lg-3">
+            <img src="/imags/img43 1.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 pt-3">
+            <h3 class="footer-heading">Address</h3>
+            <p class="f-text">
+              Gandharv Excellance Phase II, <br />Moshi, Pune – 412105
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 pt-3">
+            <h3 class="footer-heading">Contact</h3>
+            <p class="f-text">
+              +91 7875508642 <br />+91 8600209732<br />sparkgenele24@gmail.com
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 pt-3">
+            <h3 class="footer-heading">Quick Links</h3>
+            <ul>
+              <li class="f-text"><a href="index.html">Home</a></li>
+              <li class="f-text"><a href="product.html">Our Products</a></li>
+              <li class="f-text"><a href="about.html">About Us</a></li>
+            </ul>
+            <p class=""><br />Our Products<br />About Us</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 pt-3">
+            <h3 class="footer-heading">Social Media</h3>
+            <p class="f-text">
+              <a href="#0" class="social-icons"
+                ><i class="fab fa-facebook-f mb-1"></i> Facebook</a
+              ><br />
+              <a href="#0" class="social-icons"
+                ><i class="fab fa-instagram mb-1"></i> Instagram
+              </a>
+              <br />
+              <a href="#0" class="social-icons"
+                ><i class="fab fa-youtube mb-1"></i> YouTube
+              </a>
+            </p>
+          </div>
+          <hr />
+          <div class="copy">
+            <p class="copy-text">Copyright ©. 2025 All Rights Reserved.</p>
+            <p class="copy-text">
+              Designed & Developed by
+              <span>
+                <a href="https://capternal.com/" target="_blank"
+                  >Capternal Systems Pvt. Ltd.</a
+                ></span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

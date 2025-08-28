@@ -571,3 +571,34 @@ a {
   background-color: var(--black-color);
   color: var(--white-color);
 }
+.product-section {
+  padding: 100px 0;
+}
+.heading-3 {
+  font-size: 42px;
+  line-height: 60px;
+  padding-top: 20px;
+  width: 80%;
+}
+.panel-img img {
+  border-radius: 20px;
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+}
+
+.panel-content {
+  padding-left: 50px;
+}
+.panel-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--black-color);
+}
+
+.product {
+  border: 2px dashed #0000003b;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
